@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+#ocean {
+    width: 900px;
+    height: 700px;
+    background-image: url("../ocean.jpg");
+}
+
+.player {
+    width: 70px;
+    height: 75px;
+    background-image: url("../player.png");
+    position: absolute;
+}
+
+#enemies-box .enemy {
+    width: 70px;
+    height: 75px;
+    background-image: url("../enemy.png");
+    position: absolute;
+}
+
+.missile {
+    background-color: black;
+    position: absolute;
+    width: 3px;
+    height: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#score {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 835px;
+    z-index: 1;
+    text-align: center;
+}
+.score {
+    margin: 0px;
+    font-size:40px;
+}
+
+.score-layer {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    background-color: white;
+    opacity: .5;
+    left: 835px;
+}
